@@ -1,5 +1,4 @@
 import { Image } from "@imagekit/react";
-import React from "react";
 
 const ImageComponent = ({ src, className = "", w, h, alt = "" }) => {
   return (
@@ -11,6 +10,12 @@ const ImageComponent = ({ src, className = "", w, h, alt = "" }) => {
       width={w}
       height={h}
       alt={alt}
+      transformation={[
+        {
+          width: w,
+          height: h,
+        },
+      ]}
     />
   );
 };

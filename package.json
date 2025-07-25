@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.35.3",
     "@imagekit/react": "^5.0.1",
+    "@ljharb/tsconfig": "^0.3.2",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-quill-new": "^3.4.6",
     "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
